@@ -124,3 +124,15 @@ notebook).
   horizontal scroll. The only external requests are the three GETs of the
   runtime from jsDelivr; no POST, no request carries image data.
 - Not checked: a real lab computer, a phone (iOS Safari, Android Chrome).
+
+## Public copy: `tomasvicar/mlr-detector` (22 November 2026)
+
+At the author's request the page is also published as its own public
+repository with GitHub Pages: <https://github.com/tomasvicar/mlr-detector>,
+<https://tomasvicar.github.io/mlr-detector/>. It is a plain copy of this folder
+plus `README.md`, `LICENSE` (AGPL-3.0 text) and `.nojekyll`; `sources.md` is
+renamed to `SOURCES.md`. The QR code and the "open on your phone" link point to
+that URL. **This folder stays the source**: after a change, copy it into a
+clone of `mlr-detector` (keeping README.md, LICENSE, .nojekyll), rename
+`sources.md` to `SOURCES.md`, commit and push. Checked after the first push:
+the test image gives bus 0.85 + persons 0.84, 0.81, 0.78, 0.29 on the live URL.

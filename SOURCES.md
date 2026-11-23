@@ -136,3 +136,7 @@ that URL. **This folder stays the source**: after a change, copy it into a
 clone of `mlr-detector` (keeping README.md, LICENSE, .nojekyll), rename
 `sources.md` to `SOURCES.md`, commit and push. Checked after the first push:
 the test image gives bus 0.85 + persons 0.84, 0.81, 0.78, 0.29 on the live URL.
+
+The footer links the GitHub repository `tomasvicar/mlr-detector` as the
+source of the page (author, 23 November 2026; pushed to `mlr-detector` the
+same day).
